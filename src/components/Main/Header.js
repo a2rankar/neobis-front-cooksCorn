@@ -5,14 +5,16 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div className="container">
-        <div className='head'><h1><span>Welcome back<br></br>
-            To</span> CooksCorner</h1></div>
-         
-            <Login/>
+        <div>
+            {/* <div className='head'><h1><span>Welcome back<br></br>
+                To</span> CooksCorner</h1></div> */}
+            <div className="container">
+                <Login/>
+            </div>
         </div>
     )
 
 }
 
 export default Header;
+

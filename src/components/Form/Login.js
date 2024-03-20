@@ -20,7 +20,7 @@ function Login() {
             e.preventDefault();
         
             try {
-                const response = await axios.post('https://royal-nerve-lorby.up.railway.api/users/createProfile', {
+                const response = await axios.post('https://royal-nerve-lorby.up.railway.app/api/auth/login', {
                     username,
                     password
                 });
@@ -45,7 +45,9 @@ function Login() {
 
     return (
         <div>
-           
+             <div className='head'><h1><span>Welcome back<br></br>
+                To</span> CooksCorner</h1></div>
+
             <form onSubmit={handleLogin} className="login-form">
                 <div className="input-forms">
                         <div className="Email-form">
@@ -78,8 +80,11 @@ function Login() {
                         </div>
                 </div>    
                 <button type="submit" className="Login-button">Sign in</button>
+                <div className="under">
+                <p>I don't have an account? <Link to="/registration" className="signup-link">Sign Up Now</Link></p>
+            </div>
             </form>
-            <p>I don't have an account?<span><Link to="/registration" >Sign Up Now</Link></span></p>
+          
         </div>
     );
 }

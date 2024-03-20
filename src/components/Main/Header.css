@@ -2,26 +2,4 @@ body {
     margin: 0%;
     padding: 0;
 }
-.container {
-    background-color: #FA9E31;
-}
-.head {
-    height: 220px;
-    background-color: #FA9E31;
-    margin: 0px;
-    justify-content: center;
-    text-align: center;
-    display: flex; 
-    align-items: center; 
-    margin-bottom: 90px;
-}
 
-h1 {
-    margin: 0;
-    color: #FFFFFF;
-}
-
-span {
-    font-family: lighter;
-    font-weight: 300;
-}
