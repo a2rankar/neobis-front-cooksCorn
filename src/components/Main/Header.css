@@ -2,7 +2,9 @@ body {
     margin: 0%;
     padding: 0;
 }
-
+.container {
+    background-color: #FA9E31;
+}
 .head {
     height: 220px;
     background-color: #FA9E31;

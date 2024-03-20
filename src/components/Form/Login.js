@@ -20,7 +20,7 @@ function Login() {
             e.preventDefault();
         
             try {
-                const response = await axios.post('https://royal-nerve-lorby.up.railway.app/api/auth/login', {
+                const response = await axios.post('https://royal-nerve-lorby.up.railway.api/users/createProfile', {
                     username,
                     password
                 });
